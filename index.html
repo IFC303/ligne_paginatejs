@@ -28,14 +28,16 @@
                 </div>
             </div>
         </div>
-        <table class="myTable table hover">
-            <tbody>
+        <table class="table hover">
+            <thead>
                 <tr>
                     <th>USER ID</th>
                     <th>ID</th>
                     <th>TITTLE</th>
                     <th>COMPLETED</th>
                 </tr>
+            </thead>
+            <tbody class="myTBody">
                 <tr>
                     <td>1</td>
                     <td>1</td>
@@ -1250,7 +1252,7 @@
             el: '#searchBox' //Caja de texto para filtrar, puede ser una clase o un ID
         };
 
-        paginate.init('.myTable', options, filterOptions);
+        paginate.init('.myTBody', options, filterOptions);
     </script>
 </body>
 

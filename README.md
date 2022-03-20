@@ -25,7 +25,7 @@ Opcionalmente puedes agregar una hoja de estilos que hará que tu paginación lu
 Una vez incluido en tu proyecto puedes indicar el selector de tu tabla el cual puede ser una `clase` o un `id` ambos son validos.
 
 ```javascript
-paginate.init('.myTable');
+paginate.init('.myTBody');
 ```
 
 **Resultado;**
@@ -49,7 +49,7 @@ Te recomiendo crees una variable para establecer estas opciones;
         pageCounter:true
     };
 	
-paginate.init('.myTable',options);
+paginate.init('.myTBody',options);
 ```
 
 **Resultado;**
@@ -73,5 +73,5 @@ Es posible agregar un tercer parámetro para establecer el elemento con el que q
         el:'#searchBox'
     };
 
-    paginate.init('.myTable',options,filterOptions);
+    paginate.init('.myTBody',options,filterOptions);
 ```

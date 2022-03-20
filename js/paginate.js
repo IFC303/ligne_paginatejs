@@ -21,7 +21,7 @@
  *      el:'#searchBox'
  * };
  *
- * paginate.init('.myTable',options,filterOptions);
+ * paginate.init('.myTBody',options,filterOptions);
  **/
 
 (function(window) {
